@@ -6,17 +6,11 @@ VAR model and evaluate it, it is displayed in the ISS jupyter notebook.
  to predict ISS's location on 10/09/2019 @ 12:10:00.
 
 
-## Install Project
+## Install and Run Project
 from the content root:
 
 1. docker build -t iss_location -f Dockerfile .
 2. docker run -d -p 5000:5000 iss_location
-
-OR
-* Python 3 is required
-1. pip install -e .
-1. pip install -r requirements.txt
-2. python app.py
 
 ## Results
 Go to http://localhost:5000/ in your browser to see the project's results.
