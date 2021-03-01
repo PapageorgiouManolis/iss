@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+*.pyo
+.ipynb_checkpoints
+*ISS.egg-info/*
+ISS_s_location_prediction.egg-info/
+*__pycache__
+.idea
+
+
